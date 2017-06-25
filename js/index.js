@@ -9,7 +9,7 @@ function qudraticEquation(a, b, c){
     var result;
     if (a === 0){
         result = 'Рівнняння не квадратне, введіть А відмінне від нуля.'
-    if (d === 0) {
+    if (d == 0) {
        result = 'Рівняння має один корінь'
    if (d > 0) {result = 'рівняння має два корені'
     }
